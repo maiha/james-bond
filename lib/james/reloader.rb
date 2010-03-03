@@ -45,7 +45,8 @@ module James
       def files
         array = []
         James.libs.each do |dir, reload|
-          array << dir if File.exist?(dir.sub(/(\.rb)?$/, '') + '.rb')
+          file = dir.sub(/(\.rb)?$/, '') + '.rb'
+          array << file if File.exist?(file)
           array.concat(Dir.glob("#{dir}/**/*.rb").sort) if File.directory?(dir)
         end
         return array

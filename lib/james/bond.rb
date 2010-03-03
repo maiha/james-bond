@@ -63,4 +63,4 @@ class James::Bond < Sinatra::Base
 end
 
 require "monk/glue/logger"
-require "monk/glue/settings"
+#require File.dirname(__FILE__) + "/bond/settings"
