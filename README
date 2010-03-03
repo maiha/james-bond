@@ -1,10 +1,32 @@
-xxx
-===
+JamesBond
+=========
 
+James is a bond framework for web development that offers
+MVC framework and Ruby friendly method based actions to Sinatra.
+
+Yep, of course this is inspired by monk-glue, and implemented as a wrapper to it.
+
+
+Features
+========
+
+  JamesBond is developed as the successor of MonkGlue on the following purposes.
+
+  * cool initializer by config block like Rails
+  * port option to the monk:start
+  * monk:console for irb based operation
+  * [TODO] better reloader that reloads only modified files
+  * [TODO] better syntax for defining actions about namespaces and exceptions
+  * [TODO] supporting Ajax in default
+  * [TODO] supporting EDD(Error Driven Development) via Rack
 
 
 Usage
 =====
+
+  See a sample application that uses james-bond.
+
+    http://github.com/maiha/007
 
 
 Author
