@@ -24,7 +24,7 @@ module James
             if routing or now > old
               updated_files << file
               routing_changed = true if routing and now > old
-              James.say_status(:updated, file) if old > 0
+              James.say_status(:updated, file) if now > old and old > 0
             end
             @timestamps[file] = now
           rescue Exception
