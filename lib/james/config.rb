@@ -1,7 +1,7 @@
 module James
   class Config
     def require(file, reload = false)
-      James.libs[file] = reload
+      James.libs[file.to_s] = reload
     end
 
     def port(value)

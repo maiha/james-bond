@@ -33,7 +33,6 @@ class James::Bond < Sinatra::Base
   use Rack::Session::Cookie
 
   configure :development do
-p [:set, :reloader]
     use James::Reloader
   end
 

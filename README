@@ -15,7 +15,7 @@ Features
   * cool initializer by config block like Rails
   * port option to the monk:start
   * monk:console for irb based operation
-  * [TODO] better reloader that reloads only modified files
+  * better reloader that reloads only modified files
   * [TODO] better syntax for defining actions about namespaces and exceptions
   * [TODO] supporting Ajax in default
   * [TODO] supporting EDD(Error Driven Development) via Rack
