@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["maiha"]
-  s.date = %q{2010-03-03}
+  s.date = %q{2010-04-11}
   s.description = %q{James is a bond framework for web development that offers MVC framework and Ruby friendly method based actions to Sinatra. Yep, of course this is inspired by monk-glue, and implemented as a wrapper to it.}
   s.email = %q{maiha@wota.jp}
   s.extra_rdoc_files = ["README", "MIT-LICENSE"]
-  s.files = ["MIT-LICENSE", "README", "Rakefile", "lib/james", "lib/james/config.rb", "lib/james/reloader.rb", "lib/james/bond.rb", "lib/james-bond.rb", "spec/provide_helper.rb", "spec/its_helper.rb", "spec/spec_helper.rb", "gen/templates", "gen/templates/Thorfile", "gen/templates/init.rb", "gen/templates/config.ru", "gen/templates/dependencies"]
+  s.files = ["MIT-LICENSE", "README", "Rakefile", "Thorfile", "lib/james-bond.rb", "lib/james", "lib/james/bond.rb", "lib/james/reloader.rb", "lib/james/bond", "lib/james/bond/settings.rb", "lib/james/config.rb", "spec/provide_helper.rb", "spec/its_helper.rb", "spec/spec_helper.rb", "gen/templates", "gen/templates/init.rb", "gen/templates/Thorfile", "gen/templates/config.ru", "gen/templates/dependencies"]
   s.homepage = %q{http://github.com/maiha/james-bond}
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{asakusarb}

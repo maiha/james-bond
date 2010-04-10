@@ -25,7 +25,7 @@ spec = Gem::Specification.new do |s|
   s.add_dependency('sinatra', '>= 0.9.4')
   s.add_dependency('monk-glue', '>= 0.0.1')
   s.add_dependency('extlib', '>= 0.9.14')
-  s.files = %w(MIT-LICENSE README Rakefile) + Dir.glob("{lib,spec,gen}/**/*")
+  s.files = %w(MIT-LICENSE README Rakefile Thorfile) + Dir.glob("{lib,spec,gen}/**/*")
 end
 
 Rake::GemPackageTask.new(spec) do |pkg|

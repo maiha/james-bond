@@ -3,7 +3,6 @@ RACK_ENV = ENV["RACK_ENV"] ||= "development" unless defined? RACK_ENV
 
 require "sinatra/base"
 require "haml"
-require "sass"
 
 class James::Bond < Sinatra::Base
   # Helper method for file references.
